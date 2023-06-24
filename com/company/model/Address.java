@@ -2,18 +2,18 @@ package com.company.model;
 
 public class Address {
     private String Ulica;
-    private String MiejsceZamieszkania;
+    private String Miejscowosc;
     private String Kraj;
 
-    public Address(String Ulica, String MiejsceZamieszkania, String Kraj) {
+    public Address(String Ulica, String Miejscowosc, String Kraj) {
         this.Ulica = Ulica;
-        this.MiejsceZamieszkania = MiejsceZamieszkania;
+        this.Miejscowosc = Miejscowosc;
         this.Kraj = Kraj;
     }
 
 
 
     public String getFullAddress() {
-        return Ulica + ", " + MiejsceZamieszkania + ", " + Kraj;
+        return Ulica + ", " + Miejscowosc + ", " + Kraj;
     }
 }
